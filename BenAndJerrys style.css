@@ -1,0 +1,280 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fffaf0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.container-intro {
+  padding: 8rem 0 8rem 0;
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+
+}
+
+header {
+  background: #ECF9B6;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  min-height: 70px;
+}
+
+header a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #562900;
+}
+
+header ul{
+  margin: 0;
+  padding: 0;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 60px 0 60px;
+}
+
+header #branding {
+  float: left;
+}
+
+#branding .logo {
+  max-width: 200px;
+  transform: translateY(5px);
+}
+
+header nav {
+  float: right;
+  transform: translateY(26px);
+}
+
+.content h3 {
+  font-family: serif;
+  color: #562900;
+  font-size: 45px;
+}
+
+.content p {
+  color: #562900;
+  font-size: 20px;
+}
+
+.container2 {
+    background-image: url("images/background.png");
+    background-position: center;
+}
+
+.container-intro .circle {
+  width: 400px;
+  height: 400px;
+  border: 10px solid #BBCB8A;
+  border-radius: 400px;
+  padding: 0;
+  float: right;
+  transform: translateY(100px);
+}
+
+.container-intro .content{
+  text-align: center;
+  transform: translateY(100px);
+  font-family: 'Muli', sans-serif;
+}
+
+.pint-image {
+  float: left;
+  max-width: 600px;
+  position: relative;
+  bottom: 50px;
+}
+
+.button-1{
+  float: right;
+  margin-right: 130px;
+  margin-top: 150px;
+  background-color: #BBCB8A;
+  border: none;
+  width: 150px;
+  height: 40px;
+  font-size: 17px;
+  color: #562900;
+  font-family: serif;
+  font-weight: bolder;
+}
+
+.container2{
+  background-color: #ECF9B6;
+  padding: 8rem 0 0 0;
+}
+
+.container2 .content {
+  text-align: center;
+  padding: 10px 126px 0 126px;
+  transform: translateY(30px);
+  color: #562900;
+  }
+
+.content h1 {
+  font-size: 45px;
+}
+
+.container2 .monkey{
+  max-width: 550px;
+  padding: 90px 0 0 0;
+}
+
+.swiper-container{
+  height: 855px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+div .swiper-button-prev {
+  color: #562900;
+}
+
+div .swiper-button-next {
+  color: #562900;
+}
+
+.ice-cream-image {
+  max-width: 30rem;
+  float: right;
+  padding: 10rem 0 0 0;
+}
+
+.container3 {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#Flavour {
+  background-color: #ECF9B6;
+  padding: 10rem 0 0 0;
+  background-image: url("images/Flavour background.svg");
+}
+
+.container3 .flavour-circle {
+  width: 450px;
+  height: 450px;
+  border: 10px solid #fffaf0;
+  border-radius: 400px;
+  padding:0;
+  float: left;
+  color: #fffaf0;
+  background-color: #fffaf0;
+}
+
+.container3 .flavour-content{
+  text-align: center;
+  transform: translateY(70px);
+  font-family: 'Muli', sans-serif;
+}
+
+.flavour-content h3 {
+  font-size: 40px;
+  font-family: serif;
+  position: relative;
+  top: 20px;
+  color: #562900;
+}
+
+.flavour-content p {
+  font-size: 20px;
+  color: #562900;
+}
+
+#Non-dairy {
+  background-color: #fffaf0;
+  padding: 8rem 0 8rem 0;
+}
+
+.non-dairy {
+  max-width: 50rem;
+  float: left;
+  padding: 0 8rem 8rem 8rem;
+}
+
+.dairy {
+  max-width: 50rem;
+  float: right;
+  padding: 0 8rem 8rem 8rem;
+}
+
+.container4 .non-dairy-content {
+  text-align: center;
+  }
+
+.button-2{
+position: relative;
+top: 550px;
+left: 500px;
+background-color: #BBCB8A;
+border: none;
+width: 150px;
+height: 40px;
+font-size: 17px;
+color: #562900;
+font-family: serif;
+font-weight: bolder;
+}
+
+.button-3{
+position: relative;
+top: 511px;
+right: 360px;
+background-color: #BBCB8A;
+border: none;
+width: 150px;
+height: 40px;
+font-size: 17px;
+color: #562900;
+font-family: serif;
+font-weight: bolder;
+}
+
+.non-dairy-content h3 {
+  font-size: 40px;
+  color: #562900;
+  transform: translateY(-50px);
+}
+
+#footer {
+  background-color: #ECF9B6;
+  position: relative;
+  height: 100px;
+  margin-top: -100px;
+  clear: both;
+}
+
+.footer-ul {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-ul li {
+  float: left;
+  display: inline;
+  padding: 0 60px 0 60px;
+  position: relative;
+  top: 40px;
+  left: 400px;
+}
+
+.footer-ul a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #562900;
+}

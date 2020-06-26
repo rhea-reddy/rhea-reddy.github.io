@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ben & Jerry's | Welcome</title>
+    <link rel="stylesheet" href="BenAndJerrys style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,300;0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+
+    <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <img class="logo" src="images/logo.png" alt="">
+        </div>
+        <nav>
+          <ul>
+            <li> <a href="#">Home</a></li>
+            <li> <a href="#">About</a></li>
+            <li> <a href="#">Ice Cream</a></li>
+          </ul>
+        </nav>
+        </div>
+    </header>
+    <section id="Introducing-Product">
+      <div class="container-intro">
+        <div class="circle">
+          <div class="content">
+            <h3>Chunky Monkey®</h3>
+            <p>“Strictly Monkey Buisness.”</p>
+          </div>
+        </div>
+        <div class="pint">
+          <img class="pint-image" src="images/product-image.svg" alt="">
+        </div>
+        <button type="SUBMIT" class="button-1">Buy Now</button>
+      </div>
+    </section>
+    <section id="Who-We-Are">
+      <div class="container2">
+          <div class="content">
+            <h1>Before we get down to all the monkey buisness.</h1>
+            <h1>Lets tell you a little bit about who we are.</h1>
+          </div>
+        <div>
+          <img class="monkey" src="images/Monkey.png" alt="">
+          </div>
+        </div>
+    </section>
+
+    <!-- Slider main container -->
+    <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img class="Slide1" src="images/Slide1.svg"></div>
+            <div class="swiper-slide"><img class="Slide1" src="images/Slide2.svg"></div>
+            <div class="swiper-slide"><img class="Slide1" src="images/Slide3.svg"></div>
+            ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+    </div>
+
+
+    <script>
+      var mySwiper = new Swiper ('.swiper-container', {
+
+
+        // If we need pagination
+        pagination: {
+          el: '.swiper-pagination',
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+          el: '.swiper-scrollbar',
+        },
+      })
+      </script>
+
+      <section id="Flavour">
+        <div class="container3">
+          <div class="flavour-circle">
+            <div class="flavour-content">
+              <h3>Flavour</h3>
+              <p>“Banana ice cream with fudge chunks & walnuts. This flavor also has nearly 1,600 reviews on Influenster, with an overall score of 4.7 out of 5.”</p>
+            </div>
+          </div>
+          <div>
+            <img class="ice-cream-image" src="images/flavour ice-cream.png" alt="">
+          </div>
+        </div>
+      </section>
+
+      <section id="Non-dairy">
+        <div class="container4">
+          <div class="non-dairy-content">
+            <h3>Oh, we almost forgot. We now sell non-dairy Chunky Monkey!!!</h3>
+          </div>
+            <div>
+              <img class="non-dairy" src="images/Non-dairy.svg" alt="">
+            </div>
+          <div>
+            <img class="dairy" src="images/Dairy.svg" alt="">
+          </div>
+          <button class="button-2">Buy Now</button>
+          <button class="button-3">Buy Now</button>
+        </div>
+      </section>
+
+      <footer id="footer">
+        <ul class="footer-ul">
+          <li> <a href="#">Site Map</a></li>
+          <li> <a href="#">Terms</a></li>
+          <li> <a href="#">Privacy Policy</a></li>
+        </ul>
+      </footer>
+  </body>
+</html>
